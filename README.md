@@ -1,7 +1,3 @@
-# Deep-Reinforcement-learning-for-automated-trading
-An attempt to automate trading and make it much more efficient
-
-
 ## Abstract
 Stock trading strategies play a critical role in investment. However, it is challenging to design a profitable strategy in a complex and dynamic stock market. In this paper, a deep ensemble reinforcement learning scheme that automatically learns a stock trading strategy by maximizing investment return. A deep reinforcement learning agent and obtain an ensemble trading strategy using the three actor-critic based algorithms: Proximal Policy Optimization (PPO), Advantage Actor Critic (A2C), and Deep Deterministic Policy Gradient (DDPG). The ensemble strategy inherits and integrates the best features of the three algorithms, thereby robustly adjusting to different market conditions. We have made the protoype for the same model to implement the research paper
 
@@ -46,3 +42,4 @@ python run_DRL.py
 Use Quantopian's [pyfolio package](https://github.com/quantopian/pyfolio) to do the backtesting.
 
 [Backtesting script](backtesting.ipynb)
+
